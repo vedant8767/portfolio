@@ -3,8 +3,8 @@ import './App.css'
 
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-import Projects from './components/projects'
-import Skill from './components/skill'
+import Projects from './components/Projects'
+import Skill from './components/Skill'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import AboutPage from './components/AboutPage'
