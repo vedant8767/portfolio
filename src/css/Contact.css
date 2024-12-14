@@ -1,0 +1,38 @@
+.contact_section{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* border-bottom: 1px solid white; */
+}
+.contact_list{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.c_icon{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+
+}
+
+@media (min-width: 1920px) {
+
+}

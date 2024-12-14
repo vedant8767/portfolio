@@ -1,0 +1,180 @@
+.main_page{
+    height: 100vh;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+.navbar{
+    cursor: pointer;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar button{
+    font-size: 4vh;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rebeccapurple;
+    border-radius: 5px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.navbar h1{
+    font-size:5vh;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+}
+.navbar ul li{
+    font-size: 5vh;
+    font-weight: 200;
+}
+.main_about{
+    display: flex;
+    width: 100%;
+}
+.left_side{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 50px;
+    gap: 50px;
+}
+.left_side h1{
+    font-size: 6vh;
+}
+.left_side p{
+    font-size: 5vh;
+    line-height: 45px;
+}
+.right_side{
+    width: 50%;
+}
+.right_side img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+  
+  /* Hamburger menu */
+  .hamburger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+  }
+  
+  /* Close button (X) */
+  .closebutton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .closebutton p {
+    margin: 0;
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px){
+
+  }
+  
+ 
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+  
+  }
+  
+  @media (min-width: 1920px) {
+  
+  }
+  /* Mobile view */
+  @media (max-width: 768px) {
+    /* Hide navbar links on mobile */
+    .navbar ul {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      gap: 20px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: black;
+      height: 100vh;
+      justify-content: center;
+      
+    }
+  
+    .navbar h1{
+        font-size: 3vh;
+    }
+
+    .navbar.open ul {
+      display: flex;
+    }
+  
+    .navbar ul li {
+      font-size: 4vh;
+    }
+  
+    /* Show hamburger menu on mobile */
+    .hamburger {
+      display: flex;
+    }
+    .main_about {
+        flex-direction: column;
+        width: 100%;
+        min-height: 100vh;
+      }
+      
+      .left_side {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 50px;
+        gap: 50px;
+        height: 50vh;
+      }
+      
+      .left_side h1 {
+        font-size: 3vh;
+      }
+      
+      .left_side p {
+        font-size: 3vh;
+        line-height: 45px;
+      }
+      
+      .right_side {
+        width: 100%;
+        height: 50vh;
+      }
+      
+      .right_side img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    
+  }
+  
+  /* Main About Section */
+  

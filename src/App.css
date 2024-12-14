@@ -1,0 +1,14 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+html{
+  scroll-behavior: smooth;
+}
