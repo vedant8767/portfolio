@@ -77,7 +77,7 @@ import '../css/About.css';
 import self_image from '../assets/About_page.png';
 import resume from '../../public/resume.pdf';
 
-function About() {
+function AboutPage() {
   // State for handling mobile menu visibility
   const [isOpen, setIsOpen] = useState(false);
 
@@ -149,5 +149,5 @@ function About() {
   );
 }
 
-export default About;
+export default AboutPage;
 

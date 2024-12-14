@@ -1,12 +1,14 @@
 import { useEffect } from 'react'
 import './App.css'
-import About from './components/about'
+
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Projects from './components/projects'
 import Skill from './components/skill'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import AboutPage from './components/AboutPage'
+
 
 
 function App() {
@@ -19,7 +21,7 @@ function App() {
 },[])
   return (
    <div>
-     <About/>
+     <AboutPage/>
      <Skill/>
      <Projects/>
      <Contact/>
