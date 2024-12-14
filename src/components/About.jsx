@@ -72,7 +72,7 @@
 
 // export default About
 import React, { useState } from 'react'; // Import useState
-import Typical from 'react-typical';
+// import Typical from 'react-typical';
 import '../css/About.css';
 import self_image from '../assets/About_page.png';
 import resume from '../../public/resume.pdf';
@@ -122,7 +122,8 @@ function About() {
       <div className="main_about">
         <div className="left_side" >
           <h1>
-            <Typical
+            Vedant Bhadkamkar
+            {/* <Typical
               steps={[
                 'Vedant Bhadkamkar', 1000,    
                 ' ', 100,          
@@ -131,7 +132,7 @@ function About() {
               ]}
               loop={Infinity}
               wrapper="span"
-            />
+            /> */}
           </h1>
           <p>
             Hi there! I'm a Software Developer with a knack for crafting elegant and efficient 
