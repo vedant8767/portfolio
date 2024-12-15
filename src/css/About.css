@@ -81,7 +81,7 @@ a{
   .hamburger .bar {
     width: 25px;
     height: 3px;
-    background-color: white;
+    background-color: black;
   }
   
   /* Close button (X) */
@@ -90,7 +90,7 @@ a{
     top: 20px;
     right: 20px;
     font-size: 2rem;
-    color: white;
+    color: black;
     cursor: pointer;
   }
   
