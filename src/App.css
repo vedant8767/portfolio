@@ -5,8 +5,9 @@
 
 body{
   font-family: 'Poppins', sans-serif;
-  background-color: black;
-  color: white;
+  /* background-color: black; */
+  background-color: rgba(0, 0, 0, 0); /* Transparent black */
+  color: black;
 }
 
 html{

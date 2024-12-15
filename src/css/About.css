@@ -1,7 +1,7 @@
 .main_page{
     min-height: 100vh;
     width: 100%;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
 }
 .navbar{
     cursor: pointer;
@@ -19,13 +19,15 @@
     outline: none;
     border: 2px solid rebeccapurple;
     border-radius: 5px;
+
 }
 a{
-    color: white;
+    color: black;
     text-decoration: none;
 }
 .navbar h1{
     font-size:5vh;
+    color:blue;
 }
 .navbar ul{
     display: flex;
@@ -36,6 +38,7 @@ a{
 .navbar ul li{
     font-size: 5vh;
     font-weight: 200;
+    color: black;
 }
 .main_about{
     display: flex;
@@ -50,10 +53,12 @@ a{
 }
 .left_side h1{
     font-size: 6vh;
+    color: #CC6CF2;
 }
 .left_side p{
     font-size: 5vh;
     line-height: 45px;
+    color: black;
 }
 .right_side{
     width: 50%;
