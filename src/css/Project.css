@@ -56,10 +56,14 @@
         font-size: 4vh;
     }
     .each_project h1{
-        font-size: 3vh;
+        font-size: 2.5vh;
     }
     .each_project p{
-        font-size: 2.5vh;
+        font-size: 2vh;
+    }
+    .Project_icon{
+        width: 30px;
+        height: 30px;
     }
 }
 

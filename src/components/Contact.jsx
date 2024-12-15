@@ -5,7 +5,7 @@ import '../css/Contact.css'
 function Contact() {
   return (
     <div className='contact_section'>
-        <h1>Contact Me</h1>
+        <h1>Connect With Me</h1>
         <div className="contact_list">
             <div className='contact_icon'>
                 <a href="https://github.com/vedant8767/">

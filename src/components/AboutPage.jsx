@@ -76,6 +76,8 @@ import React, { useState } from 'react'; // Import useState
 import '../css/About.css';
 import self_image from '../assets/About_page.png';
 import resume from '../../public/resume.pdf';
+// import {Typed} from 'react-typed';
+import Typewriter from 'typewriter-effect';
 
 function AboutPage() {
   // State for handling mobile menu visibility
@@ -122,7 +124,20 @@ function AboutPage() {
       <div className="main_about">
         <div className="left_side" >
           <h1>
-            Vedant Bhadkamkar
+            {/* Vedant Bhadkamkar */}
+            <Typewriter
+          options={{
+            strings: [
+              "Hello, I'm Vedant!",
+              "I love coding.",
+              "Welcome to my portfolio.",
+            ],
+            autoStart: true,
+            loop: true,
+            delay: 75, // Speed of typing
+            deleteSpeed: 50, // Speed of deletion
+          }}
+        />
             {/* <Typical
               steps={[
                 'Vedant Bhadkamkar', 1000,    

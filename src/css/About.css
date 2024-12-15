@@ -135,14 +135,12 @@ a{
       font-size: 3vh;
     }
   
-    /* Show hamburger menu on mobile */
     .hamburger {
       display: flex;
     }
     .main_about {
         flex-direction: column;
         width: 100%;
-        /* min-height: 100vh; */
       }
       
       .left_side {
@@ -155,13 +153,13 @@ a{
       }
       
       .left_side h1 {
-        font-size: 3vh;
+        font-size: 2.5vh;
         margin-bottom: 5px;
       }
       
       .left_side p {
-        font-size: 3vh;
-        line-height: 45px;
+        font-size: 2.5vh;
+        line-height: 40px;
       }
       
       .right_side {
@@ -174,8 +172,11 @@ a{
         height: 100%;
         object-fit: contain;
       }
+
+      .navbar button{
+        font-size: 2.5vh;
+        padding: 8px;
+      }
     
   }
-  
-  /* Main About Section */
   
