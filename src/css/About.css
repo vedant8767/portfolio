@@ -27,7 +27,7 @@ a{
 }
 .navbar h1{
     font-size:5vh;
-    color:blue;
+    color:black;
 }
 .navbar ul{
     display: flex;
@@ -138,6 +138,7 @@ a{
   
     .navbar ul li {
       font-size: 3vh;
+      font-weight: 600;
     }
   
     .hamburger {
